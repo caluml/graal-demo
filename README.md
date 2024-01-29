@@ -6,4 +6,8 @@ After cloning this repo,
   1. export JAVA_HOME=/opt/path/to/graal
   1. ./build-native.sh
 
-time target/graal-cli add 123 234
+## Running the normal way
+`time java -cp target/classes/ graalcli.Main add 123 234`
+
+## Running the Graal native way
+`time target/graal-cli add 123 234`
